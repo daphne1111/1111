@@ -1,6 +1,7 @@
+
 let x,y;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1080, 720);
   
 }
 
@@ -12,7 +13,7 @@ function draw() {
  
   push();
   fill(225)
-  rect(windowWidth/2,windowHeight/2,600,50);
+  rect(540,360,300,50);
   pop();
   
    if(x>3000){
@@ -21,17 +22,17 @@ function draw() {
   }
   push();
   fill(0);
-  rect(windowWidth/2,windowHeight/2,y,50);
+  rect(540,360,y,50);
   pop();
 }
 
 
 function m(){
-  for (let i = -windowWidth; x < windowWidth; i += 10) {
-    for (let j = -windowHeight; y < windowHeight; j += 10) {
+  for (let i = -windowWidth; i < windowWidth; i += 50) {
+    for (let j = -windowHeight; j < windowHeight; j += 50) {
       noStroke();
   fill(0,random(60,90));
-  square(i+mouseY*0.5,j+mouseX*0.5,9+sin(frameCount*0.01));
+  square(i+mouseY*0.5,j+mouseX*0.5,49+sin(frameCount*0.01));
        if(i>3000){
     i=0;
      j=100;
