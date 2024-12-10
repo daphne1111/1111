@@ -1,7 +1,7 @@
 
 let x,y;
 function setup() {
-  createCanvas(1080, 720);
+  createCanvas(1920, 1080);
   
 }
 
@@ -13,7 +13,7 @@ function draw() {
  
   push();
   fill(225)
-  rect(540,360,300,50);
+  rect(960,540,300,50);
   pop();
   
    if(x>3000){
@@ -22,7 +22,7 @@ function draw() {
   }
   push();
   fill(0);
-  rect(540,360,y,50);
+  rect(960,540,y,50);
   pop();
 }
 
