@@ -80,12 +80,12 @@ function mergeAndSaveScreenshots() {
     }
 
     // 儲存縮小解析度的合併圖檔
-    save(finalImage, "merged_screenshot_lowres.png");
+    save(finalImage, "look_at_yourself.png");
     console.log("已合併並儲存所有截圖，解析度已降低");
   } else {
  let blankCanvas = createGraphics(1000, 1000);
     blankCanvas.background(255); // 設置背景為白色
-    save(blankCanvas, "blank_canvas.png");
+    save(blankCanvas, "you_are_willing_to_wait_Thanks.png");
     console.log("沒有可合併的截圖，已儲存一張 1000x1000 的空白畫布");
   }
 }
