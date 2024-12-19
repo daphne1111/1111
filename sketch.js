@@ -127,7 +127,7 @@ function m() {
 
 function mousePressed() {
   let buttonX = width / 2;
-  let buttonY = height / 2;
+  let buttonY = height / 2+100;
   let buttonWidth = 200;
   let buttonHeight = 50;
 
