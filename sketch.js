@@ -26,7 +26,8 @@ function draw() {
   }
 
   if (showButton) {
-    drawButton("     ", windowWidth / 2, windowHeight / 2 + 100, 80, 50, 20);
+    drawButton("     ", windowWidth / 2+60, windowHeight / 2 + 100, 80, 50+sin(c), 20+sin(c));
+  }
   }
   if (mouseIsPressed === true) {
     cursor("progress");
@@ -36,7 +37,7 @@ function draw() {
 }
 
 function drawButton(label, x, y, w, h) {
-  fill(200,0,0); // 按鈕背景色
+  fill(250,200,0); // 按鈕背景色
   rect(x, y, w, h, 10); // 按鈕區域
 
   fill(255);
