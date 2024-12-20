@@ -36,7 +36,7 @@ function draw() {
 }
 
 function drawButton(label, x, y, w, h) {
-  fill(0); // 按鈕背景色
+  fill(200,0,0); // 按鈕背景色
   rect(x, y, w, h, 10); // 按鈕區域
 
   fill(255);
