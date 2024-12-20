@@ -26,7 +26,7 @@ function draw() {
   }
 
   if (showButton) {
-    drawButton("     ", windowWidth / 2, windowHeight / 2 + 100, 200, 50, 20);
+    drawButton("     ", windowWidth / 2, windowHeight / 2 + 100, 80, 50, 20);
   }
   if (mouseIsPressed === true) {
     cursor("progress");
