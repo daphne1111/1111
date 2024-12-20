@@ -27,13 +27,14 @@ function draw() {
 
   if (showButton) {
     drawButton("     ", windowWidth / 2+60, windowHeight / 2 + 100, 80, 50,20);
-  }
+  
   }
   if (mouseIsPressed === true) {
     cursor("progress");
   } else {
     cursor("WAIT");
   }
+
 }
 
 function drawButton(label, x, y, w, h) {
