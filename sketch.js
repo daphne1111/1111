@@ -26,7 +26,7 @@ function draw() {
   }
 
   if (showButton) {
-    drawButton("     ", windowWidth / 2+60, windowHeight / 2 + 100, 80, 50+sin(c), 20+sin(c));
+    drawButton("     ", windowWidth / 2+60, windowHeight / 2 + 100, 80, 50+sin(c),20);
   }
   }
   if (mouseIsPressed === true) {
